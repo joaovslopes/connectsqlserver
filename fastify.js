@@ -174,12 +174,11 @@ app.post('/cad', async (req, res) => {
 })
 
 
-//app.listen(port, '0.0.0.0', (err, address) => {
-//  if (err) {
-//    console.error(err);
-    //process.exit(1);
-  //}
-  //console.log(`Servidor rodando em: ${address}`);
-//});
+app.listen(port, '0.0.0.0', (err, address) => {
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
+  console.log(`Servidor rodando em: ${address}`);
+});
 
-app.listen({ port: 3000 })
