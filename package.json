@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node fastify.js"
+    "dev": "node fastify.js",
+    "start": "node fastify.js"
   },
   "keywords": [],
   "author": "",
